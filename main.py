@@ -1,15 +1,8 @@
-# Tke marks as input from user
-print("Enter Marks Obtained in 4 Subjects: ")
-math = int(input("maths :"))
-english = int(input("english :"))
-science = int(input("science :"))
-hindi = int(input("hindi :"))
+# Step 1: Take input
+temp = float(input("Enter the temperature: "))
 
-#Lets calculate the percentage of marks
-sum = math+english+science+hindi
-print("sum of math,english,science and hindi = ", sum)
-
-perc = (sum/400)*100
-
-print(end="Percentage Mark = ")
-print(perc)
+# Step 2: Check condition
+if temp >= 25:
+    print("The weather is suitable for wearing light clothes.")
+else:
+    print("The weather is NOT suitable for wearing light clothes.")
